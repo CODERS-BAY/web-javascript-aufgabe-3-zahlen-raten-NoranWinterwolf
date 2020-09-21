@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Zahlen raten</h1>
+    </header>
+    <main>
+        <article class="grid">
+            <label for="highest">Set highest Num:</label>
+            <input type="number" name="highestNum" id="highest" value="0">
+            <label for="trys">How many tries:</label>
+            <input type="number" name="trys" id="trys" value="1">
+            <button type="button" id="start">Start</button>
+            <label for="playerNum">Number: </label>
+            <input type="number" name="playerNum" id="playerNum" value="0" disabled>
+            <button type="button" id="check" disabled>Check</button>
+            <div id="tryText"></div>
+            <div id="resultText"></div>
+        </article>
+    </main>
+    <script src="JS/script.js"></script>
+</body>
+
+</html>
